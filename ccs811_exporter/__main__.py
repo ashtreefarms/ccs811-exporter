@@ -24,7 +24,7 @@ def _init_arg_parser():
                         .format(_DEFAULT_PORT))
     p.add_argument("-a", "--address",
                    type=lambda x: int(x, 0), default=_DEFAULT_I2C_ADDRESS,
-                   help="CCS811 I2C address (default: 0x{:02x}"
+                   help="CCS811 I2C address (default: 0x{:02x})"
                         .format(_DEFAULT_I2C_ADDRESS))
     p.add_argument("-l", "--labels", type=json.loads,
                    help="JSON object of Prometheus labels to apply")
