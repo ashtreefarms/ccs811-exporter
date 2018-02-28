@@ -1,4 +1,4 @@
-bme280_exporter
+ccs811_exporter
 ===============
 
 Python Prometheus exporter for the ams CCS811 sensor
