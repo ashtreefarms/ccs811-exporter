@@ -5,7 +5,7 @@ __title__ = "ccs811_exporter"
 __summary__ = "Prometheus exporter for the ams CCS811 sensor"
 __uri__ = "https://github.com/ashtreefarms/ccs811_exporter"
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __author__ = "Jake Krog"
 __email__ = "jake.krog@gmail.com"
